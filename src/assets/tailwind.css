@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-title {
+  @apply text-primary;
+  @apply text-6xl;
+  @apply my-2;
+}
