@@ -1,0 +1,20 @@
+{
+  "name": "practice-nov-2020-tailwind-css-2",
+  "version": "1.0.0",
+  "description": "Practice app using tailwind css 2.0 features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robert-laws/practice-nov-2020-tailwind-css-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robert-laws/practice-nov-2020-tailwind-css-2/issues"
+  },
+  "homepage": "https://github.com/robert-laws/practice-nov-2020-tailwind-css-2#readme"
+}
