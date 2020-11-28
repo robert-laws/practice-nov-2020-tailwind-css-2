@@ -1,17 +1,14 @@
 module.exports = {
   purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class',
   theme: {
-    colors: {
-      primary: '#006363',
-      myHighlight: {
-        100: '#E2E2D5',
-        200: '#888883',
+    extend: {
+      colors: {
+        primary: '#FD23AA',
       },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [require('@tailwindcss/typography')],
 };
