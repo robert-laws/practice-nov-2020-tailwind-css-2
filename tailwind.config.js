@@ -1,5 +1,10 @@
 module.exports = {
-  purge: [],
+  purge: {
+    content: ['./src/**/*.js'],
+    options: {
+      whitelist: ['main-header'],
+    },
+  },
   darkMode: 'class',
   theme: {
     extend: {

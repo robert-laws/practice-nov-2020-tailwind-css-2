@@ -4,6 +4,6 @@
 
 .main-title {
   @apply text-primary;
-  @apply text-6xl;
+  @apply text-3xl;
   @apply my-2;
 }
