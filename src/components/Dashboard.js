@@ -37,12 +37,12 @@ const Dashboard = () => {
         <div className='bg-red-200 h-64'></div>
         <div className='bg-red-200 h-64'></div>
       </div>
-      <div className='flex-auto flex flex-row bg-white rounded-tl-xl rounded-r-none shadow-md'>
+      <div className='flex-auto flex flex-row bg-white  rounded-tl-xl rounded-r-none shadow-md'>
         <div className='flex flex-col w-1/5'>
           <div className='flex-none h-24'>Top</div>
           <div className='flex-auto overflow-y-auto border-t'>
-            <a href='/' className='block border-b'>
-              <div className='border-l-2  border-transparent p-2 space-y-4'>
+            <a href='/' className='block border-b hover:bg-blue-50'>
+              <div className='border-l-2 border-transparent hover:border-blue-500 p-2 space-y-4'>
                 <div className='flex flex-row items-center space-x-2'>
                   <UserIcon width='w-6' height='h-6' />
                   <strong className='flex-grow text-md'>Bob Cobb</strong>
@@ -89,7 +89,32 @@ const Dashboard = () => {
           </div>
         </div>
         <div className='w-3/5 border-l border-r border-gray-300'></div>
-        <div className='w-1/5 bg-gray-200'>right</div>
+        <div className='w-1/5 bg-gray-200 overflow-y-auto flex flex-col'>
+          <div className='h-64 flex-none border-b border-gray-400'></div>
+          <div className='flex-initial flex flex-col space-y-4'>
+            <div className='h-64 bg-white border rounded-md m-1 p-2'>
+              card content
+            </div>
+            <div className='h-64 bg-white border rounded-md m-1 p-2'>
+              card content
+            </div>
+            <div className='h-64 bg-white border rounded-md m-1 p-2'>
+              card content
+            </div>
+            <div className='h-64 bg-white border rounded-md m-1 p-2'>
+              card content
+            </div>
+            <div className='h-64 bg-white border rounded-md m-1 p-2'>
+              card content
+            </div>
+            <div className='h-64 bg-white border rounded-md m-1 p-2'>
+              card content
+            </div>
+            <div className='h-64 bg-white border rounded-md m-1 p-2'>
+              card content
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
