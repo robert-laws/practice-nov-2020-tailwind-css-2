@@ -1,5 +1,6 @@
 import React from 'react';
 import Stories from './components/Stories';
+import Transitions from './components/Transitions';
 
 const App = () => {
   return (
@@ -8,6 +9,8 @@ const App = () => {
         Tailwind Stories
       </h2>
       <Stories />
+      <hr />
+      <Transitions />
     </div>
   );
 };

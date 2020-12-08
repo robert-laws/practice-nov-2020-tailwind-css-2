@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors');
+
 module.exports = {
   purge: {
     content: ['./src/**/*.js'],
@@ -10,10 +12,15 @@ module.exports = {
     extend: {
       colors: {
         primary: '#FD23AA',
+        indigo: colors.indigo,
+        teal: colors.teal,
+        emerald: colors.emerald,
       },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      translate: ['active', 'group-hover'],
+    },
   },
 };
