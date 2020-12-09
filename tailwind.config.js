@@ -16,6 +16,9 @@ module.exports = {
         teal: colors.teal,
         emerald: colors.emerald,
       },
+      scale: {
+        500: '5',
+      },
     },
   },
   variants: {
